@@ -1,0 +1,66 @@
+.App {
+  text-align: center;
+}
+
+.homepage-container {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.homepage-content {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  margin-bottom: 150px;
+}
+
+.post {
+  margin-top: 60px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.post-form {
+  padding: 60px;
+  width: 60%;
+  border: 1px solid rgb(238, 234, 234);
+}
+
+.form-btn {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.notfound {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: red;
+}
+
+.post-tile {
+  margin: 15px;
+  border: 2px solid black;
+}
+
+.post-tiles-container {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tiles {
+  width: 80%;
+}
+
+.button {
+  margin: 20px;
+}
